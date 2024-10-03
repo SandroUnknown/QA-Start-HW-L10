@@ -18,7 +18,6 @@ public class IssueTests extends BaseTests {
     public static final String dataSearch = "qa_guru_14_10";
     public static final String issueName = "Issue for Autotest";
 
-
     @Test
     @Story("Проверка на 'чистом Selenide'")
     @Owner("Petyukov Alexander")
