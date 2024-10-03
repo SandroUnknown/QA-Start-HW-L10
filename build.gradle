@@ -30,8 +30,10 @@ dependencies {
             "com.codeborne:selenide:7.5.1",
             "io.qameta.allure:allure-selenide:2.29.0"
     )
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.11.1')
 }
 
 test {
     useJUnitPlatform()
+    systemProperties(System.getProperties())
 }
